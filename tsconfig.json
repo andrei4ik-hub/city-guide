@@ -13,10 +13,13 @@
       }
     },
     "include": [
-      "src/**/*"                               // Включаем все файлы в папке src
+      "src/**/*" ,                              // Включаем все файлы в папке src
+      "src", "typings.d.ts"
+      
     ],
     "exclude": [
       "node_modules"                           // Исключаем папку node_modules
     ]
   }
   
+  //b49b3816-2f61-4a36-8345-d5a8260a76e8
